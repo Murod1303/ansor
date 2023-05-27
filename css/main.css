@@ -1,4 +1,31 @@
-
+@font-face {
+    font-display: swap; 
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/OpenSansCondensed-Regular.woff") format("woff")
+  }
+@font-face {
+    font-display: swap;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/OpenSansCondensed-Regular.woff2") format("woff2"); 
+  }
+  @font-face {
+    font-display: swap;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/OpenSansCondensed-Bold.woff") format("woff")
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/OpenSansCondensed-Bold.woff2") format("woff2"); 
+  }
 
 * {
     margin: 0;
@@ -14,7 +41,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 .visually-hidden {
     position: absolute;
@@ -65,7 +92,7 @@ header {
     width: 189px;
     text-align: center;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 150%;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -121,7 +148,7 @@ header {
     width: 189px;
     text-align: center;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 150%;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -196,7 +223,7 @@ main {
     margin: 0 auto;
     text-align: center;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 150%;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -243,7 +270,7 @@ main {
     padding: 12px;
     text-align: center;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 120%;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -264,7 +291,7 @@ main {
     border-radius: 8px;
 }
 .contact__link--fz {
-    font-size: 12px;
+    font-size: 14px;
 }
 /* footer started  */
 footer {
